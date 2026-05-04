@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+        />
+        <script>
+            // 先清空 localStorage
+            // localStorage.clear()
+            if (localStorage.getItem('ok') === '1') {
+                window.location.replace('https://www.pakeplus.com')
+            }
+        </script>
+        <title>请输入密码</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                height: 100vh;
+                background: linear-gradient(135deg, #1c1c1e, #2c2c2e);
+                display: none;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+            }
+            /* 毛玻璃卡片 */
+            .card {
+                width: 90%;
+                max-width: 380px;
+                padding: 30px 24px;
+                border-radius: 28px;
+                background: rgba(255, 255, 255, 0.08);
+                backdrop-filter: blur(20px);
+                -webkit-backdrop-filter: blur(20px);
+                box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+                text-align: center;
+                animation: fadeIn 0.6s ease;
+            }
+            /* 标题 */
+            .title {
+                font-size: 22px;
+                font-weight: 600;
+                margin-bottom: 24px;
+            }
+            /* 输入框 */
+            .input {
+                width: 100%;
+                padding: 14px;
+                border-radius: 14px;
+                border: none;
+                outline: none;
+                font-size: 16px;
+                margin-bottom: 16px;
+                background: rgba(255, 255, 255, 0.1);
+                color: #fff;
+                transition: 0.2s;
+            }
+            .input::placeholder {
+                color: rgba(255, 255, 255, 0.4);
+            }
+            .input:focus {
+                background: rgba(255, 255, 255, 0.15);
+                box-shadow: 0 0 0 2px rgba(0, 122, 255, 0.6);
+            }
+            .tip {
+                font-size: 14px;
+                color: #fff;
+                opacity: 0.7;
+                margin-top: 12px;
+            }
+            /* 按钮 */
+            .button {
+                width: 100%;
+                padding: 14px;
+                border-radius: 14px;
+                border: none;
+                font-size: 16px;
+                font-weight: 500;
+                background: linear-gradient(135deg, #0a84ff, #4facfe);
+                color: #fff;
+                cursor: pointer;
+                transition: 0.2s;
+            }
+            .button:active {
+                transform: scale(0.97);
+            }
+            /* 错误提示 */
+            .error {
+                /* margin-top: 12px; */
+                font-size: 14px;
+                color: #ff453a;
+                opacity: 0;
+                transition: 0.2s;
+            }
+            /* 适配 iPhone 底部安全区 */
+            @supports (padding: max(0px)) {
+                body {
+                    padding-bottom: env(safe-area-inset-bottom);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 激活卡片 -->
+        <div class="card" id="card">
+            <div class="title">请输入密码</div>
+            <input id="code" class="input" placeholder="请输入密码" />
+            <button class="button" onclick="check()">验证</button>
+            <div class="tip">
+                提示内容提示内容提示内容提示内容提示内容提示内容提示内容提示内容提示内容提示内容提示内容提示内容
+            </div>
+            <div id="error" class="error">激活码错误</div>
+        </div>
+        <script>
+            const codes = ['VIP666']
+            window.onload = () => {
+                if (localStorage.getItem('ok') === '1') {
+                    showMain()
+                }
+            }
+            function check() {
+                const val = document.getElementById('code').value.trim()
+                const error = document.getElementById('error')
+                const card = document.getElementById('card')
+                if (codes.includes(val)) {
+                    localStorage.setItem('ok', '1')
+                    showMain()
+                } else {
+                    error.style.opacity = 1
+                }
+            }
+            // show main url
+            function showMain() {
+                window.location.replace('https://www.pakeplus.com')
+            }
+            document.body.style.display = 'flex'
+        </script>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+{
+    "version": "2.2.3",
+    "show": false,
+    "webShow": true,
+    "ppShow": false,
+    "pub_date": "2025-06-02T09:00:33.251Z",
+    "zh": "PakePlus是开源免费项目，近期有人使用百度搜索PakePlus被骗，假冒网站提示下载PakePlus需要付费，已经有不少人被骗，如果被骗，请赶快投诉并申请退款！",
+    "en": "PakePlus is an open-source and free project, and it now supports packaging for both desktop and mobile devices. Thank you all for your support!",
+    "ja": "PakePlusはオープンソースで無料のプロジェクトで、現在デスクトップ端末とモバイル端末のパッケージングに対応しています。皆様のご支援に感謝します！",
+    "ko": "PakePlus는 오픈소스 무료 프로젝트로, 현재 데스크톱과 모바일 패키징을 지원하고 있습니다. 여러분의 지원에 감사드립니다!",
+    "zhTw": "PakePlus 是开源免费项目，近期有人使用百度搜索PakePlus被骗，假冒网站提示下载PakePlus需要付费，已经有不少人被骗，如果被骗，请赶快投诉并申请退款！",
+    "openUrl": "https://pakeplus.com/zh/question/liar.html",
+    "overall": false,
+    "upstream": "Sjj1024",
+    "mainRepo": "PakePlus",
+    "iosRepo": "PakePlus-iOS",
+    "androidRepo": "PakePlus-Android",
+    "repoPrefix": "PakePlus"
+}
