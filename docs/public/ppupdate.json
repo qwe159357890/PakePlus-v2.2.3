@@ -1,0 +1,68 @@
+{
+    "force": false,
+    "zh": "1.优化开发调试功能，支持原生浏览器调试 <br>2.修复私有项目本地下载失败问题 <br>3.优化公开项目下载和分享路线，支持加速下载",
+    "en": "1.Optimized development and debugging features, now supporting native browser debugging <br>2.Fixed the issue of download failures for local private projects <br>3.Optimized download and sharing routes for public projects, now supporting accelerated downloads",
+    "ja": "1.開発・デバッグ機能を最適化し、ネイティブブラウザデバッグをサポート <br>2.プライベートプロジェクトのローカルダウンロード失敗問題を修正 <br>3.公開プロジェクトのダウンロードと共有ルートを最適化し、高速ダウンロードをサポート",
+    "ko": "1.개발 및 디버깅 기능 최적화, 네이티브 브라우저 디버깅 지원 <br>2.비공개 프로젝트 로컬 다운로드 실패 문제 수정 <br>3.공개 프로젝트 다운로드 및 공유 경로 최적화, 고속 다운로드 지원",
+    "version": "2.1.3",
+    "notes": "",
+    "pub_date": "2025-11-17T05:53:53.992Z",
+    "platforms": {
+        "darwin-x86_64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZXU2NXM1FydEZBczM5OVBTUW9wWE1FUGFBemJWYk8wUUczVlBoYmlXRmFwejF1VUloS3V4WUUxTDNlc1EvYlY1QXF6bDZndDBVOHAybzRQR05ESXBIZDlWeFpLdHdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYzMzU4MDE3CWZpbGU6UGFrZVBsdXMuYXBwLnRhci5negpvbzlpV0YwSlViTTgvMmNBQ2lrODh5Slc2VTU5SkI2SWNlS2VLMS96YnRyMmF3NEY3T0t3NGU1dmFKK2FNam5KVTdDNStkcmFLckRHZzJiNXZIaTdDQT09Cg==",
+            "url": "https://github.com/Sjj1024/PakePlus/releases/download/PakePlus-v2.1.3/PakePlus_x64.app.tar.gz"
+        },
+        "darwin-x86_64-app": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZXU2NXM1FydEZBczM5OVBTUW9wWE1FUGFBemJWYk8wUUczVlBoYmlXRmFwejF1VUloS3V4WUUxTDNlc1EvYlY1QXF6bDZndDBVOHAybzRQR05ESXBIZDlWeFpLdHdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYzMzU4MDE3CWZpbGU6UGFrZVBsdXMuYXBwLnRhci5negpvbzlpV0YwSlViTTgvMmNBQ2lrODh5Slc2VTU5SkI2SWNlS2VLMS96YnRyMmF3NEY3T0t3NGU1dmFKK2FNam5KVTdDNStkcmFLckRHZzJiNXZIaTdDQT09Cg==",
+            "url": "https://github.com/Sjj1024/PakePlus/releases/download/PakePlus-v2.1.3/PakePlus_x64.app.tar.gz"
+        },
+        "linux-x86_64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZXU2NXM1FydEtJV3A3dWduWHF4bzVzY3Y2KysvaHhPa09oSmVHVDNaS3U3dlBiRVBPU3hqV1hvL1NTNkV6cTdPQkJSZ2cwRitBcUlHb1pTQjdlTEJSamZHNHVrMWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYzMzU4MDk1CWZpbGU6UGFrZVBsdXNfMi4xLjNfYW1kNjQuQXBwSW1hZ2UKd21PelpiUUwvL2RTRjZubngwem1ocGtuakhiWU12Snp0eC81bjdpM0xMSWZqM0s2UzhXb3VwRCtXeGFvOGozb2dtVHdLdm5DT0t6ZVFDcGxwVUpCQmc9PQo=",
+            "url": "https://github.com/Sjj1024/PakePlus/releases/download/PakePlus-v2.1.3/PakePlus_2.1.3_amd64.AppImage"
+        },
+        "linux-x86_64-appimage": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZXU2NXM1FydEtJV3A3dWduWHF4bzVzY3Y2KysvaHhPa09oSmVHVDNaS3U3dlBiRVBPU3hqV1hvL1NTNkV6cTdPQkJSZ2cwRitBcUlHb1pTQjdlTEJSamZHNHVrMWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYzMzU4MDk1CWZpbGU6UGFrZVBsdXNfMi4xLjNfYW1kNjQuQXBwSW1hZ2UKd21PelpiUUwvL2RTRjZubngwem1ocGtuakhiWU12Snp0eC81bjdpM0xMSWZqM0s2UzhXb3VwRCtXeGFvOGozb2dtVHdLdm5DT0t6ZVFDcGxwVUpCQmc9PQo=",
+            "url": "https://github.com/Sjj1024/PakePlus/releases/download/PakePlus-v2.1.3/PakePlus_2.1.3_amd64.AppImage"
+        },
+        "linux-x86_64-deb": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZXU2NXM1FydEJMV09sQXRGZTB5eHBoMDJNM1hiYVhhMjdwakUvOG9Ndll2TFpyNUFjbmJZM2NjME9DNVJoRmFNM0xDY2VTdlJYVVNVamtqWDladjhteGdpb0pvUXdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYzMzU4MDk1CWZpbGU6UGFrZVBsdXNfMi4xLjNfYW1kNjQuZGViCjRhR2xpS2UvK3NkT0p6Vy9ad08wM29GbnRtS0VVMTNWVGFnQUN0d2RjZXZiYnZ4RlptVVpSUnhxY2EwY0VBM2xFUnRQSHZHMVBMSWxNRFlnMml0b0RBPT0K",
+            "url": "https://github.com/Sjj1024/PakePlus/releases/download/PakePlus-v2.1.3/PakePlus_2.1.3_amd64.deb"
+        },
+        "linux-x86_64-rpm": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZXU2NXM1FydEI2eXJxNzBCWXNDSXZjMll3SXV5QkZyR2tnM2JUSzlsNmU0RXVOdXpFWCsvemwvWEZPRG1ublhkdkFjNlVJSDZTWWEzenYwK2RWNWJ1SW5RY1NNc1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYzMzU4MDk1CWZpbGU6UGFrZVBsdXMtMi4xLjMtMS54ODZfNjQucnBtCnJGcms2SGZwbkhJYTNyd0NHY2JlMDZpY3RGVkJoWHlLd0ZGaEx1blVuZmtwdkJybEZlWVVjSFpnS0h5MHVpRVFVOUZObmUvNlIxeWhxTGE4Y1NvK0J3PT0K",
+            "url": "https://github.com/Sjj1024/PakePlus/releases/download/PakePlus-v2.1.3/PakePlus-2.1.3-1.x86_64.rpm"
+        },
+        "windows-aarch64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZXU2NXM1FydEdnY3d0QlMrZzA2cG5VdmxXRU00c285ZXU1bGxLYi9VNjA3MmV0cEYwTkhVemxTck9sd0t6SGJ0QWxrTStqWnI5QXMwRXQ5RUdqUTdjbEgyaDY2ZlFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYzMzU4MzIwCWZpbGU6UGFrZVBsdXNfMi4xLjNfYXJtNjRfZW4tVVMubXNpCkY2MDlWcWJuR1lSZDhNcW5QNG50OHNaenlzd29DVHV2bk9LMS82WXgyMDl3enEva1pkRG5yNVM4Y0dndGkvczcvbStEMlJTb0QrRUhMU09lMjQxaUR3PT0K",
+            "url": "https://github.com/Sjj1024/PakePlus/releases/download/PakePlus-v2.1.3/PakePlus_2.1.3_arm64_en-US.msi"
+        },
+        "windows-aarch64-msi": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZXU2NXM1FydEdnY3d0QlMrZzA2cG5VdmxXRU00c285ZXU1bGxLYi9VNjA3MmV0cEYwTkhVemxTck9sd0t6SGJ0QWxrTStqWnI5QXMwRXQ5RUdqUTdjbEgyaDY2ZlFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYzMzU4MzIwCWZpbGU6UGFrZVBsdXNfMi4xLjNfYXJtNjRfZW4tVVMubXNpCkY2MDlWcWJuR1lSZDhNcW5QNG50OHNaenlzd29DVHV2bk9LMS82WXgyMDl3enEva1pkRG5yNVM4Y0dndGkvczcvbStEMlJTb0QrRUhMU09lMjQxaUR3PT0K",
+            "url": "https://github.com/Sjj1024/PakePlus/releases/download/PakePlus-v2.1.3/PakePlus_2.1.3_arm64_en-US.msi"
+        },
+        "windows-aarch64-nsis": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZXU2NXM1FydEI2Q2o5OUtZRzY0cUN1ZGVyTkQzU3o2K0JXdDUxL1R4K0wzZEVza3hPd1Erd2t3b3FzMHF5TEVHZ08zVXMxU3lyaXFZY3hFK2grcWsxN3hUTGlyUHdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYzMzU4MzIwCWZpbGU6UGFrZVBsdXNfMi4xLjNfYXJtNjQtc2V0dXAuZXhlCmdoSjhBeDhSUDlkM2R0SlpDVUlNQ1JXeEx3VEd4NFVhRnprcitXUnRaV2wvdlhLM21rT1k4MDVHUnVGaERrc1I0VWdXRHRVN2tzMVJYRWd3TXVmcERRPT0K",
+            "url": "https://github.com/Sjj1024/PakePlus/releases/download/PakePlus-v2.1.3/PakePlus_2.1.3_arm64-setup.exe"
+        },
+        "windows-x86_64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZXU2NXM1FydEhiY1U5ZWNtdEk2cEdPQlhjclBLMks1ZCtRZmZLdzY5WFBTd25GcWUxczNwUm9iMldGNkpMd3UxUnozQms2dWlTV3lqTFAyVnJwYnA3b0dzcmQ2VUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYzMzU4NDM3CWZpbGU6UGFrZVBsdXNfMi4xLjNfeDY0X2VuLVVTLm1zaQpCcmVYajZoODUxbU93Z0VheHlrRlorUFFBUUlaaWdrRHFFT2NhYU0zQ3VyWm80dmlSSUpUTjF5UlBCRFVaSG1zeWFpTTBxa1UrelhhSU80aUkyeEdBdz09Cg==",
+            "url": "https://github.com/Sjj1024/PakePlus/releases/download/PakePlus-v2.1.3/PakePlus_2.1.3_x64_en-US.msi"
+        },
+        "windows-x86_64-msi": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZXU2NXM1FydEhiY1U5ZWNtdEk2cEdPQlhjclBLMks1ZCtRZmZLdzY5WFBTd25GcWUxczNwUm9iMldGNkpMd3UxUnozQms2dWlTV3lqTFAyVnJwYnA3b0dzcmQ2VUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYzMzU4NDM3CWZpbGU6UGFrZVBsdXNfMi4xLjNfeDY0X2VuLVVTLm1zaQpCcmVYajZoODUxbU93Z0VheHlrRlorUFFBUUlaaWdrRHFFT2NhYU0zQ3VyWm80dmlSSUpUTjF5UlBCRFVaSG1zeWFpTTBxa1UrelhhSU80aUkyeEdBdz09Cg==",
+            "url": "https://github.com/Sjj1024/PakePlus/releases/download/PakePlus-v2.1.3/PakePlus_2.1.3_x64_en-US.msi"
+        },
+        "windows-x86_64-nsis": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZXU2NXM1FydE9ZUzNYbHhRb082bk4wa0I0dFllb3RkVmw3UStPbHBWdDhLQmI5aWpIN0Jia3pCNWFIRm15RTNCdGdIYUdaeURWSUhWdW5Pak1JUWxIdmNsbzFydFEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYzMzU4NDM3CWZpbGU6UGFrZVBsdXNfMi4xLjNfeDY0LXNldHVwLmV4ZQp2R0xrNXJMSGNxMG1NMnpTanNBa0pqTlAyNWVGZ0hzN3ZkMHJub0g2Rzl2akVJNVBoeHRrb3hhYzFNUE5lZU5Sa0x6b0dGazJENzNnK1ZRdlB2MHREdz09Cg==",
+            "url": "https://github.com/Sjj1024/PakePlus/releases/download/PakePlus-v2.1.3/PakePlus_2.1.3_x64-setup.exe"
+        },
+        "darwin-aarch64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZXU2NXM1FydExubWZxcklTTWdGSlp3RTNXOExUVlFJUFJKeU9rbnRRU2kzaEdYZ2NYc3p6WEY1Ly9CSGxYVzBxSWxHeWY4WUcwa2JFSHdEMHcvNVZyeUVrRVVUbHdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYzMzU4ODI4CWZpbGU6UGFrZVBsdXMuYXBwLnRhci5negpPZDFpTTdOWmxzdnVLenU3NDNCdjAyQnlKWU5FMi8zRnpsd1VjeDNacG5Ba3NyQ1ByTXRCelNOSFBlUzdLMHRYL2RpdUFJVUVNd0Jtby9vdTc3MGxBZz09Cg==",
+            "url": "https://github.com/Sjj1024/PakePlus/releases/download/PakePlus-v2.1.3/PakePlus_aarch64.app.tar.gz"
+        },
+        "darwin-aarch64-app": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb0ZXU2NXM1FydExubWZxcklTTWdGSlp3RTNXOExUVlFJUFJKeU9rbnRRU2kzaEdYZ2NYc3p6WEY1Ly9CSGxYVzBxSWxHeWY4WUcwa2JFSHdEMHcvNVZyeUVrRVVUbHdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYzMzU4ODI4CWZpbGU6UGFrZVBsdXMuYXBwLnRhci5negpPZDFpTTdOWmxzdnVLenU3NDNCdjAyQnlKWU5FMi8zRnpsd1VjeDNacG5Ba3NyQ1ByTXRCelNOSFBlUzdLMHRYL2RpdUFJVUVNd0Jtby9vdTc3MGxBZz09Cg==",
+            "url": "https://github.com/Sjj1024/PakePlus/releases/download/PakePlus-v2.1.3/PakePlus_aarch64.app.tar.gz"
+        }
+    }
+}
