@@ -1,0 +1,22 @@
+{
+    "name": "pakeplus",
+    "private": true,
+    "version": "1.0.2",
+    "type": "module",
+    "scripts": {
+        "tauri": "tauri",
+        "icon": "tauri icon",
+        "worker": "node ./scripts/ppworker.cjs",
+        "restore": "git restore .",
+        "tauri:dev": "tauri dev",
+        "tauri:build": "tauri build",
+        "tauri:debug": "tauri build --debug"
+    },
+    "devDependencies": {
+        "@tauri-apps/cli": "^2",
+        "@types/node": "^22.5.4",
+        "png2icons": "^2.0.1",
+        "sharp": "^0.33.5",
+        "fs-extra": "^11.3.0"
+    }
+}
